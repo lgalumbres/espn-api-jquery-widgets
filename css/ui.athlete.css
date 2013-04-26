@@ -1,0 +1,34 @@
+.ui-athlete-container { 
+	height: 300px; 
+	width: 100%;
+	background-color: #151515;
+	border: 2px solid;
+	border-radius: 15px;
+	position: relative;
+}
+
+.ui-athlete-team-logo { 
+	opacity:0.2; 
+	filter:alpha(opacity=20); 
+	position: absolute;
+	height: 300px; 
+	width: 300px; 
+	/*background-image: url("http://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/bos.png&w=300&h=300");
+	top: 10px; 
+	left: 10px;*/ 
+}
+
+.ui-athlete-mugshot {
+	height: 300px; 
+	width: 396px; 
+	position: relative;
+	left: 0; 
+	/*background-image: url("http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/662.png&w=396&h=300");*/ 
+}
+
+.ui-athlete-tabs { 
+	height: 30px; 
+	width: 100%; 
+	position: relative; 
+	background-color: #cccfff; 
+}

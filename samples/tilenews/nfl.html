@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>ESPN Headlines API</title>
+        <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.7.2.custom.css">
+        <link rel="stylesheet" type="text/css" href="css/ui.tilenews.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.tilenews.js"></script>
+        <script type="text/javascript">
+        	$(document).ready(function() {
+				$("#container").tilenews({ 
+					api_key : "{api-key}", 
+					sport : "football", 
+					league : "nfl" 
+				});
+        	});
+		</script>
+	</head>
+	<body>
+    	<div id="container">
+    	</div>
+	</body>
+</html>

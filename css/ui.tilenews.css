@@ -1,0 +1,6 @@
+.ui-container { height: 100%; min-height: 100%; }
+.ui-tile { width : 500px; height: 313px; float: left; padding: 2px; }
+.ui-description { position: absolute; padding: 10px; float: left; font-size: 12px; background-color: rgba(255,0,0,0.5); }
+.ui-caption { position: absolute; padding: 10px; float: left; }
+.ui-caption a:link, a:visited { color: #fff; text-decoration: none; }
+.ui-caption a:hover { color: #ceecf5; text-decoration: underline }
